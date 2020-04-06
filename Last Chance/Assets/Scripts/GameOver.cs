@@ -18,7 +18,9 @@ public class GameOver : MonoBehaviour
     }
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
 
     // Update is called once per frame
