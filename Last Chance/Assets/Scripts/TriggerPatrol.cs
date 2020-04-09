@@ -24,7 +24,7 @@ public class TriggerPatrol : MonoBehaviour
 
     void OnTriggerEnter(Collider coll)  {
         if (coll.gameObject.tag == "Player")   {
-            print("Danger danger high voltage");
+            print("Danger danger");
             Damage();
             _enemypatrol.target = coll.gameObject;
          
