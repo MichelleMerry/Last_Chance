@@ -20,7 +20,8 @@ public class PlayerMove : MonoBehaviour
 
         private void Awake()
         {
-            charController = GetComponent<CharacterController>();
+        Cursor.visible = false;
+        charController = GetComponent<CharacterController>();
         }
 
 
