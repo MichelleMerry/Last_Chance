@@ -16,6 +16,12 @@ public class GameOver : MonoBehaviour
     {
         SceneManager.LoadScene("MainGame");
     }
+
+    public void Playgame()
+    {
+        SceneManager.LoadScene("StartText");
+    }
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.None;

@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class PlayerLook : MonoBehaviour
 {
+  
     [SerializeField] private string mouseXInputName, mouseYInputName;
     [SerializeField] private float mouseSensitivity;
 
     [SerializeField] private Transform PlayerBody;
     private float xAxisClamp;
 
+   
 
     private void Awake()
     {
